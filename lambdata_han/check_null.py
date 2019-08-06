@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+
 def check_null(df):
 	"""
 	Checking for null values and return a boolean and the total number of nulls
@@ -17,4 +18,4 @@ def check_null(df):
 	if df.isnull().values.any():
 		return True, df.isnull().sum()
 	else:
-		return False, df.isnull().sum()
+        return False, df.isnull().sum()
