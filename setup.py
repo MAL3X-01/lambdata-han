@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lambdata-han",
-    version="0.0.1",
+    version="0.0.2",
     author="Hanchung Lee",
     author_email="lee.hanchung@gmail.com",
     description="test package",
