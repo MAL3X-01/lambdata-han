@@ -3,5 +3,9 @@ dist/*
 *.egg-info/*
 *.tar.gz
 *.whl
+<<<<<<< HEAD
 __pycache__/*
+=======
+
+>>>>>>> fbf9cf5d925d7a79408ff0bb680806bc03de0d8b
 
